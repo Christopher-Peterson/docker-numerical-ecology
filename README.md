@@ -28,12 +28,12 @@ sudo docker run -d -p $PORT:$PORT \
 
 ## Use
 
-1. In the console, run `sudo docker containers start numerical_ecology`
+1. In the console, run `sudo docker container start numerical_ecology` (You can skip this if you just initialized the container for the first time).
 2. In a web browser, go to `localhost:8787`
 3. Sign in with the username `rstudio` and the password you used above
 4. Welcome to RStudio
 
-When you're done, run `sudo docker containers stop numerical_ecology` to shut it down.
+When you're done, run `sudo docker container stop numerical_ecology` to shut it down.
 
 ## Building the docker image
 
